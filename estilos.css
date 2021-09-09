@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Times new roman", sans-serif;
+  background-color: #ffffff;
+  background-image: url("https://media.prod.mdn.mozit.cloud/attachments/2015/12/03/11991/2a8cb40883043c33d474d67e163b5779/startransparent.gif");
+  color: #261e2e;
+  font-size: 14px;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+/* Navigation */
+.nav-main {
+  font-size: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px 0;
+}
+
+/* Navbar Left */
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+  color: purple;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+  text-decoration: none;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid violet;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+.avatar {
+  height: 250px;
+  width: 250px;
+  border-radius: 90px;
+}
+.personal {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  min-height: 100vh;
+}
+.personal h1 {
+  color: purple;
+}
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.datos {
+  min-height: 100vh;
+  font-size: 35px;
+  text-align: justify;
+}
+.rangos {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background: #9588cf;
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 15px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid #6058ca;
+}
+
+.f1 {
+  text-align: center;
+  font-size: 40px;
+}
+.f1 #juego {
+  color: magenta;
+}
+.f1 #web {
+  color: blueviolet;
+}
